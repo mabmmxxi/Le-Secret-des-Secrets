@@ -10,11 +10,22 @@
 
     <style>
         body { margin: 0; padding: 0; background-color: #333; }
-        /* This centers the book on your screen */
+        /* This centers the book on screen */
         #my-book-container {
             width: 90%;
             height: 100vh;
             margin: 5vh auto;
+
+            .df-ui-download {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+    }
+
+        .df-ui-print {
+        display: none !important;
+        }
         }
     </style>
 </head>
